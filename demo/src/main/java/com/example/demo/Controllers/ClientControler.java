@@ -54,6 +54,8 @@ public class ClientControler {
     @FXML
     void btnVer(ActionEvent event) {
         mostrarInformacion=clients.toString();
+        String nombre=null;
+        mfc.buscar(nombre);
 
     }
 }

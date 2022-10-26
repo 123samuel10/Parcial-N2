@@ -27,8 +27,8 @@ public class ModelFactoryController implements ModelFactoryService {
     }
 
     @Override
-    public void buscar() {
-
+    public void buscar(String nombre) {
+        laboratorio.getClientService().buscar(nombre);
     }
 
 
